@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public interface Validator {
 
-    public void validate(String  input, String pattern) throws InvalidDataException;
+    void validate(String  input, String pattern) throws InvalidDataException;
 
 
 }
